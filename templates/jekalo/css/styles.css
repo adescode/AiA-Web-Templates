@@ -1,0 +1,125 @@
+#preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  background: #333 url('http://files.mimoymima.com/images/loading.gif') no-repeat center center;
+}
+
+html,
+body,
+header,
+.view,
+.intro-2  {
+  min-height: 100vh;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+.view {
+    background: url("http://jekalo.com/images/jekalo-bg-home.jpg")no-repeat center center !important;
+    background-size: cover;
+}
+
+.navbar-collapse{
+    flex-grow: 0;
+}
+
+.navbar.navbar-dark .navbar-nav .nav-item.active>.nav-link {
+    background-color: transparent !important;
+}
+
+.app-navbar{
+    background-image: linear-gradient(to bottom, rgba(21,21,21,0.8), rgba(21,21,21,0));
+}
+
+.software-lp .navbar {
+    background-color: #28a745;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+
+.nav-link {
+    display: block;
+    text-align: center;
+    font-size: x-large;
+    color: #fff;
+    font-weight: bolder;
+    margin: 0 10px;
+}
+
+.rideshare strong::after {
+  background: transparent !important;
+}
+.rideshare strong {
+  color: #343434bd;
+}
+
+.software-lp h6 {
+  line-height: 1.7;
+  letter-spacing: 1.6px;
+  font-weight: bold;
+}
+
+
+@media (max-width: 768px){
+.software-lp .navbar:not(.top-nav-collapse) {
+    background: #28a745;
+}
+.app-title-body{
+  margin-top:20px;
+}
+
+}
+@media (max-width: 850px){
+.software-lp .navbar:not(.top-nav-collapse) {
+    background: #28a745;
+}}
+
+@media (min-width: 740px)and (max-width: 991px) {
+
+  html,
+  body,
+  header,
+  .intro-2 {
+    min-height: 900px;
+  }
+  .software-lp .navbar:not(.top-nav-collapse) {
+    background: #28a745;
+}
+.app-title-body{
+  margin-top:30px;
+}
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+
+  html,
+  body,
+  header,
+  .view,
+  .intro-2 {
+    min-height: 980px;
+  }
+  
+}
+
+@media (min-width: 992px){
+  .app-title {
+    font-size:260% !important;
+  }
+  /* .how-it{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 40px;
+  } */
+}
+/* @media (max-width: 992px){
+  .how-it{
+    display: none
+  }
+} */

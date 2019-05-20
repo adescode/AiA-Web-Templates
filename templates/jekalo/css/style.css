@@ -1,0 +1,96 @@
+.app-container{
+  background-image: url(https://bolt.eu/images/app-header-front-page-c46747b3.jpg);
+  height: 70vh;
+  margin: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.app-navbar {
+  margin: 0;
+  padding-top: 30px !important;
+  font-weight: 500;
+  letter-spacing: .05em;
+  position: absolute;
+  background-image: linear-gradient(to bottom, rgba(21,21,21,0.8), rgba(21,21,21,0));
+  border-width: 0 0 0 !important;
+}
+
+.offer-btn{
+  padding: 5px;
+}
+
+.navbar-collapse ul{
+  flex-grow: 0;
+margin-top: 16px;
+}
+
+.navbar-nav{
+  align-items: center;
+}
+
+.nav-link strong{
+color: #FFFFFF;
+}
+
+@media (min-width: 768px){
+.ml-md-4, .mx-md-4 {
+   margin: 0 !important
+}
+.app-container{
+  background-image: url(https://bolt.eu/images/app-header-front-page-c46747b3.jpg);
+}
+}
+
+@media (max-width: 768px){
+  .app-container{
+  background-image: url(https://bolt.eu/images/app-header-front-page-mobile-3bbd5fe3.jpg);
+  }
+}
+@media (min-width: 992px){
+  .navbar-collapse ul{
+    margin-top: 0px;
+    flex-grow: 0;
+    }
+    .app-navbar {
+      margin: 0;
+      padding: 30px !important;
+  }
+}
+
+.bar-icon{
+  color: white;
+  font-size: 30px;
+}
+
+.view {
+  background: url("https://mdbootstrap.com/img/Photos/Others/img (51).jpg")no-repeat center center;
+  background-size: cover;
+}
+@media (min-width: 768px) {
+  .view {
+      overflow: visible;
+      margin-top: -56px;
+  }
+}
+.navbar {
+  z-index: 1;
+}
+
+html,
+body,
+header,
+.view {
+height: 100%;
+}
+
+.navbar-collapse{
+  flex-grow: 0;
+}
+
+.navbar.navbar-dark .navbar-nav .nav-item.active>.nav-link {
+  background-color: transparent !important;
+}
+
+
