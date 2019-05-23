@@ -1,0 +1,53 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+body{
+    background-color: #dbdbdb; 
+}
+/* Full height image header */
+.bgimg-1 {
+    background-position: center;
+    background-size: cover ;
+    background-repeat: no-repeat; 
+    background-image: url("../images/main.jpg");
+    min-height: 100%;
+    background-color: teal;
+   
+}
+
+ul.w3-ul li{
+    border-bottom: 0px;
+}
+.w3-bar .w3-button {
+    padding: 16px;
+}
+.w3-animate-bottom{
+    -webkit-animation:animatebottom 0.9s;animation:animatebottom 0.9s
+}
+.btncolor{
+    background-color: teal;
+    color:white;
+    border: 0px solid;
+    border-radius: 10px;
+    margin: 0px 0px 50px 0px;;
+}
+.btncolor:hover{
+    box-shadow: 0px 1px 0.5px 2px  #66ffff;
+    background-color:  aqua;
+}
+.texth{
+    text-decoration: none; 
+    color: white; 
+    font-style: oblique;
+    font-family: "time new roman", time ,serif;
+    font-size: 400%; 
+}
+
+.mySlides {
+    display:none;
+}
+.w3-display-topleft{
+    top:45px;
+}

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nurayn Nigeria Limited</title>
+    <link rel="shortcut icon" href="images/index.jpg" >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/incss.css">
+    <style>
+    </style>
+  </head>
+
+  <body>
+    <div class="w3-top" >
+      <div class="w3-bar w3-white w3-card-4" id="myNavbar" >
+       <a href="index.html" class="w3-hide-small w3-hide-medium"><img src="images/index.jpg" width="5%"></a>
+        <a href="index.html" class="w3-hide-small w3-hide-large"><img src="images/index.jpg" width="10%"></a>
+        <a href="index.html" class="w3-hide-medium w3-hide-large"><img src="images/index.jpg" width="20%"></a>
+        <!-- Right-sided navbar links -->
+        <div class="w3-right w3-hide-small w3-text-teal">
+          <a href="index.html" class="w3-bar-item w3-button"><i class="fa fa-home"></i> HOME</a>
+          <a href="services.html" class="w3-bar-item w3-button"><i class="fa fa-server"></i> SERVICES</a>
+          <a href="about.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> ABOUT US</a>
+          <a href="contact.html" class="w3-bar-item w3-button"><i class="fa fa-envelope "></i> CONTACT</a>
+        </div>
+        <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium w3-text-teal" onclick="w3_open()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </div>
+    <!-- Sidebar on small screens when clicking the menu icon -->
+    <nav class="w3-sidebar w3-bar-block w3-black w3-card-2 w3-animate-left w3-hide-medium w3-hide-large w3-text-teal" style="display:none" id="mySidebar">
+      <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+      <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
+      <a href="services.html" onclick="w3_close()" class="w3-bar-item w3-button">OUR SERVICE</a>
+      <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT US</a>
+      <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+    </nav>
+
+    <!-- Main section-->
+
+    <div class=" w3-margin " style="padding:70px 16px" id="services">
+      <h1 class="w3-center w3-black-white" ><b>  Our Services  </b></h1>
+    </div>
+    <div class="w3-container " style="background-color: #333333 ;margin-bottom: 40px; ">
+      <div class="w3-twothird w3-padding w3-text-white">
+        <h1 class='w3-center ' style="font-size: 140%; "><b> Real Estate Management </b></h1>
+        <p>
+          Nurayn Nigeria Limited is a property management Organisation that deals with the administration of residential,
+          commercial and industrial real estate including apartments,
+          detached houses, condominium units and shopping centres.
+          We provide property management that typically involves the managing of property that is owned by another party or entity.
+        <ul><li>Marketing and Financial</li>
+          <li>Tenant and Occupancy</li>
+          <li>Facility</li><li>Administration & Risk Management</li></ul>
+    </p>
+      </div>
+      <div class="w3-quarter w3-container w3-card-2 w3-margin-left w3-margin">
+        <img src="images/manage.jpg" alt="Norway" style="width:100%" >
+        <div class="w3-container w3-teal w3-card-2">
+          <p><b>Estate Management</b></p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-container w3-padding">
+      <div class="w3-quarter w3-container w3-cad-2 w3-margin-bottom">
+        <img class="w3-card-4 w3-hover-opacity" src="images/market.png" alt="Norway" onclick="onClick(this)" style="width:100%" >
+        <div class="w3-container w3-teal w3-card-4">
+          <p><b>Marketing</b></p>
+        </div>
+      </div>
+      <div class="w3-quarter w3-container w3-cad-2 w3-margin-bottom">
+        <img class="w3-card-4 w3-hover-opacity" src="images/tenant.jpg" alt="Norway" onclick="onClick(this)" style="width:100%" >
+        <div class="w3-container w3-teal w3-card-4">
+          <p><b>Tenant and occupancy</b></p>
+        </div>
+      </div>
+      <div class="w3-quarter w3-container   w3-margin-bottom">
+        <img class="w3-card-4 w3-hover-opacity" src="images/facility.jpg" alt="Norway"  style="width:100%" >
+        <div class="w3-container w3-teal w3-card-4">
+          <p><b>Facility </b></p>
+        </div>
+      </div>
+      <div class="w3-quarter w3-container w3-cards-2  w3-margin-bottom">
+        <img class="w3-card-4 w3-hover-opacity" src="images/admi.jpg" alt="Norway" style="width:100%"  >
+        <div class="w3-container w3-teal w3-card-4">
+          <p><b>Administration</b></p>
+        </div>
+      </div>
+    </div>
+
+    <!--Agric management-->
+    <div class="w3-container w3-text-white" style="margin-top: 50px;background-color:  #333333 ;" id="agric">
+      <h3 class="w3-center" ><b> Agricultural Management </b></h3>
+      <div class="w3-container ">
+        <div class="w3-third  " >
+
+          <p>We  plan and coordinate the operation of farms, nurseries, greenhouses, and other agricultural production sites.
+            In larger work settings they may also hire and train farmers to care for the crops under their supervision.<p>
+        </div>
+        <div class="w3-third  " >
+
+          <p>We are in charge of hiring, training, and managing farm workers, ensuring that they are properly prepared for their important positions.
+            They are also involved in selecting the proper equipment and supplies needed to properly support the farm<p>
+        </div>
+        <div class="w3-third  " >
+
+          <p>Depending on the size of the facility,
+            an Agricultural Manager may also be required to keep the books and market the yield for that year.<p>
+        </div>
+      </div></div>
+
+    <div class="w3-container " style="background-color:  #333333 " >
+      <div class="w3-center w3-margin w3-padding">
+        <div class="w3-content w3-section" style="max-width:500px">
+          <img class="mySlides" src="images/ox.jpg" style="width:100%">
+          <img class="mySlides" src="images/track.jpg" style="width:100%">
+          <img class="mySlides" src="images/tracktor.png" style="width:100%">
+        </div>
+      </div>
+    </div>
+    <!--end Agric-->
+    <!-- general trading -->
+    <div class="w3-container w3-magin" id="gen" style="margin-top:50px; margin-bottom: 50px;">
+      <div class="  w3-padding" >
+        <h2 class="w3-center"><b> General Trading </b></h2>
+        <p class="w3-center "> Nurayn Nigeria Limited provide high quality and up-to-date infrastructure, extensive and
+          backed by professional service provider. 
+        </p>
+      </div>
+      <div class="w3-container">
+        <div class="w3-row-padding w3-center" style="margin-top:20px">
+      
+      <div class="w3-third w3-teal ">
+            <h3 class="w3-large" style="border-bottom: white solid 2px;"><b>Service Sector</b></h3>
+            <p>We carry high quality party supplies for rent, including lounge furniture and tents, stage, dance floors
+              and seemingly endless list of party equipment.
+              </p>
+          </div>
+      
+      
+          
+           <div class="w3-third w3-text-teal" style="border: teal solid 2px;">
+            <h3 class="w3-large" style="border-bottom:teal solid 2px;"><b>Industrial Trades</b></h3>
+            <p>We are involve in reviewing financial information, effectively manage funds,
+              implement sound financial practises and understand your organisation’s financial position and obligations.</p>
+          </div>
+          
+      
+          <div class="w3-third w3-teal ">
+            <h3 class="w3-large" style="border-bottom: white solid 2px;"><b>Construction Sector</b></h3>
+            <p>We offers a broad range of general construction equipment & tools to meet all your project needs.
+              We focused upon the efficient and effective services for our customers</p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!--end sport-->
+
+    <!--Footer-->
+    <div class="w3-container w3-black w3-text-white w3-row-padding w3-margin-0" id="about"  style="padding:50px 16px">
+      <div class=" w3-third ">
+        <h3 class="w3-center w3-margin w3-center">About Us</h3>
+        <p> At Nurayn Nigeria Limited time management is an oxymoron.
+          Priority management is the answer to maximizing the time we have. Success in management requires learning fast
+          as the world is changing</p>
+        <a href="about.html" class="w3-bar-item w3-button btncolor">Read More >></a>
+      </div>
+      <div class="w3-third w3-ceter" id="contact" >
+        <h3 class="w3-margin w3-center">Our Address</h3>
+        <p><i class="fa fa-map-marker w3-margin " aria-hidden="true"></i> 18 Alhaji Makanjuola street, hostel Bus Stop, Agodo Egbe, Lagos.</p>
+        <ul class="w3-ul">
+          <li><i class="fa fa-phone w3-margin-right" aria-hidden="true"></i> +234 8071586604</li>
+          <li><i class="fa fa-phone w3-margin-right" aria-hidden="true"></i> +234 7066558600</li></ul>
+        <p><a href="mailto:info@nuraynnig.com"><i class="fa fa-envelope w3-margin" aria-hidden="true"></i> info@nuraynnig.com</a></p>
+      </div>
+      <div class="w3-third w3-center">
+        <h3 class="w3-margin">Connect With Us</h3>
+        <div class=" w3-row-padding ">
+          <div class="w3-margin-bottom w3-margin-left">
+            <a class="w3-margin-left" href="#"><i class="fa fa-facebook"></i></a>
+            <a class="w3-margin-left" href="#"><i class="fa fa-twitter"></i></a>
+            <a class="w3-margin-left" href="#"><i class="fa fa-linkedin"></i></a>
+            <a class="w3-margin-left" href="#"><i class="fa fa-google-plus"></i></a>
+          </div>
+          <a href="#services" class="w3-button w3-teal w3-padding-large w3-margin-bottom">
+            <i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+
+        </div>
+      </div>
+      <div class="w3-container w3-center">
+        <p>© 2017 Nurayn Nigeria Limited. All Rights Reserved. || Designed by
+          <span class='w3-text-teal'><a href="https://portfolio.adescode.com"><b>Adescode</b></a></span> 
+      </div>
+    </div>
+
+    </div>
+    <div class=" w3-bottom ">
+      <button onclick="document.getElementById('fminfo').style.display = 'block'" class="w3-round-medium w3-teal w3-border-0 w3-hover-shadow">For more information</button>
+    </div>
+    <div id="fminfo" class="w3-modal">
+      <div class="w3-animate-bottom w3-modal-content">
+        <header class="w3-container w3-teal"> 
+          <span onclick="document.getElementById('fminfo').style.display = 'none'" 
+                class="w3-button w3-display-topright">&times;</span>
+          <h2><b>Nurayn Nigeria Limited</b></h2>
+        </header>
+        <div class="w3-container">
+          <p><i class="fa fa-map-marker w3-margin " aria-hidden="true"></i> 18 Alhaji Makanjuola street, hostel Bus Stop, Agodo Egbe, Lagos.</p>
+        <ul class="w3-ul">
+          <li><i class="fa fa-phone w3-margin-right" aria-hidden="true"></i> +234 8071586604</li>
+          <li><i class="fa fa-phone w3-margin-right" aria-hidden="true"></i> +234 7066558600</li></ul>
+        <p><a href="mailto:info@nuraynnig.com"><i class="fa fa-envelope w3-margin" aria-hidden="true"></i> info@nuraynnig.com</a></p>
+        </div>
+
+      </div>
+
+      <!--end Footer-->
+      <script src="js/carousel.js"/></script>
+    <script src="js/mobilebar.js"/></script>
+</body>
+</html>
